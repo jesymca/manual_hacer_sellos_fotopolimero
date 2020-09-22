@@ -1,0 +1,204 @@
+<html>
+<header>
+<link href="css/estilos.css" type="text/css" rel="stylesheet">	
+</header>
+<body class="clase1">
+<h1>Felicidades</h1>
+<p>Al llegar aquí es porque haz instalado ya un servidor WEB en tu equipo, ahora te indicaremos una serie de información de configuración de APACHE y PHP necesarias para que tu servidor tenga sentido.</p>
+<p>El servidor web de Apache es uno de los más populares para proveer contenido web en Internet. Cuenta con más de la mitad de todos los sitios web activos en la red y es extremadamente poderoso y flexible.</p>
+
+<p>Apache divide su funcionalidad y componentes en unidades independientes que pueden ser configuradas independientemente. La unidad básica que describe un sitio individual o el dominio llamado virtual host.</p>
+<p>Estas asignaciones permiten al administrador utilizar un servidor para alojar varios dominios o sitios en una simple interface o IP utilizando un mecanismo de coincidencias. Esto es relevante para cualquiera que busque alojamiento para más de un sitio en un solo VPS.</p>
+<p>Cada dominio que es configurado apuntará al visitante a una carpeta específica que contiene la información del sitio, nunca indicará que el mismo servidor es responsable de otros sitios. Este esquema es expandible sin limites de software tanto como el servidor pueda soportar la carga.</p>
+<p>En esta guía, te diremos como puedes configurar tus virtual hosts de Apache en tu VPS con los sistemas que hemos venido utilizando a lo largo de este curso. Durante este proceso, aprenderás como configurar diferente contenido para diferentes visitantes dependiendo del dominio que soliciten.
+</p>
+<h2>Es necesario que tenga un Visor de archivos PDF</h2>
+<p>Si usa Windows y no posee un visor de archivos PDF necesitara instalar uno, nosotros hemos pensado en usted, por ello haga clic primero en donde dice el nombre de la lección si no logra visualizar el archivo entonces debe hacer clic en la figurita roja que dice PDF que le permitirá ir al sitio de descarga de visores PDF recomendados.</p>
+
+<table align="center">
+<tr>
+<td align="center" valign="middle">
+<a class="clase3" href="../media/archivos/LECCION%204.pdf" target="_blank" name="Leccion 4 LINUX" id="Leccion4" lang="ES" title="Leccion 4 LINUX">Leer la Lección 4 Completa</a>
+</td>
+<td align="center" valign="middle">
+<a class="clase6" href="../media/programas/windows/pdf" target="_blank" name="Leccion 1" id="Linkleccion1" lang="ES" title="Instaladores PDF">
+<img src="../media/imagen/pdf.png" width="100" onmouseover="this.src='../media/imagen/pdf2.png';" onmouseout="this.src='../media/imagen/pdf.png';"/>
+<br>Visores de PDF</a>
+</td>
+</tr>
+</table>
+<h2>Algunos Trucos</h2>
+<p>Para lograr sitios web con aspecto profesional te recomendamos utilizar manejadores de contenidos como los siguientes:</p>
+<p><strong><a class="clase6" href="http://pivotx.net/" target="_blank" rel="nofollow">PIVOTX</a></strong><br />
+PivotX es ante todo una plataforma de blogs, pero también te permite hacer sitios web más complejos.<br />
+<br />
+<strong><a class="clase6" href="http://www.webgui.org/" target="_blank" rel="nofollow">WEBGUI</a></strong><br />
+Creado para que las empresas tengan la capacidad de construir y mantener sitios web complejos.<br />
+<br />
+<strong><a class="clase6" href="http://silverstripe.org/" target="_blank" rel="nofollow">SILVERSTRIPE</a></strong><br />
+La plataforma CMS más prometedores disponible hasta la fecha. Solido y poderoso.<br />
+<br />
+<strong><a class="clase6" href="http://www.getpixie.co.uk/" target="_blank" rel="nofollow">PIXIE</a></strong><br />
+Pixie es un ligero CMS, codificado en PHP / CSS, se destaca por su simplesa y su fácil uso.<br />
+<br />
+<strong><a class="clase6" href="http://www.flatpress.org/" target="_blank" rel="nofollow">FLATPRESS</a></strong><br />
+Es un multilingüe motor de blogs extensible que no requiere una base de datos para trabajar.<br />
+<br />
+<strong><a class="clase6" href="http://www.wordpress.org/" target="_blank" rel="nofollow">WORDPRESS</a></strong><br />
+No hay mucho para agregar...es el mas utilizado.<br />
+<br />
+<strong><a class="clase6" href="http://www.dotnetblogengine.net/" target="_blank" rel="nofollow">BLOGENGINE.NET</a></strong><br />
+Una plataforma de Blog en .NET<br />
+<br />
+<strong><a class="clase6" href="http://s9y.org/" target="_blank" rel="nofollow">SERENDIPITY</a></strong><br />
+En Sistema de BLOG en PHP que soporta PostgreSQL, MySQL, y SQLite.<br />
+<br />
+<strong><a class="clase6" href="http://www.movabletype.org/" target="_blank" rel="nofollow">MOVABLE TYPE</a></strong><br />
+Movable Type esta escrito en Perl y trabaja con MySQL, Berkeley DB, PostgreSQL, y SQLite.<br />
+<br />
+<strong><a class="clase6" href="http://web2newsportal.sourceforge.net/" target="_blank" rel="nofollow">WEB 2.0 NEWS PORTAL</a></strong><br />
+Muy muy simple y básico.<br />
+<br />
+<strong><a class="clase6" href="http://www.pixelpost.org/" target="_blank" rel="nofollow">PIXELPOST</a></strong><br />
+Un cms para bloggin orientado a la onda photoblog.<br />
+<br />
+<strong><a class="clase6" href="http://www.nucleuscms.org/" target="_blank" rel="nofollow">NUCLEUS</a></strong><br />
+Completo sistema en PHP para blog.</p>
+<p class="Estilo2"><br />
+<br />
+<strong>PORTALES</strong> <br />
+<br />
+<strong><a class="clase6" href="http://diferior.com/" target="_blank" rel="nofollow">DIFERIOR</a></strong><br />
+Facil de usar, facil de istalar, tambien trae plataforma de BLoggin y foros.<br />
+<br />
+<strong><a class="clase6" href="http://umbraco.org/" target="_blank" rel="nofollow">UMBRACO</a></strong><br />
+CMS echo enteramente en ASP.NET.<br />
+<br />
+<strong><a class="clase6" href="http://www.opencms.org/" target="_blank" rel="nofollow">OPENCMS</a></strong><br />
+Este esta basado en JAVA y XML.<br />
+<br />
+<strong><a class="clase6" href="http://www.lightneasy.org/" target="_blank" rel="nofollow">LIGHTNEASY</a></strong><br />
+CMS Para construir portales en HTML/PHP.<br />
+<br />
+<strong><a class="clase6" href="http://www.typo3.com/" target="_blank" rel="nofollow">TYPO3</a></strong><br />
+Un sistema basado en templates, parece bueno y fácil, nunca lo utilice.<br />
+<br />
+<strong><a class="clase6" href="http://www.cmsmadesimple.org/" target="_blank" rel="nofollow">CMS MADE SIMPLE</a></strong><br />
+Este CMS tiene muchos usos, portal, foros, blog, etc. Muy amigable para SEO.<br />
+<br />
+<strong><a class="clase6" href="http://www.joomla.org/" target="_blank" rel="nofollow">JOOMLA</a></strong><br />
+El CMS mas utilizado en el mundo entero.<br />
+<br />
+<strong><a class="clase6" href="http://drupal.org/" target="_blank" rel="nofollow">DRUPAL</a></strong><br />
+Sin palabras, para mi el mejor.<br />
+<br />
+<strong><a class="clase6" href="http://www.dotnetnuke.com/" target="_blank" rel="nofollow">DotnetNuke</a></strong><br />
+Poderoso CMS en .NET, yo lo utilice y me rindió.<br />
+<br />
+<strong><a class="clase6" href="http://e107.org/" target="_blank" rel="nofollow">E107</a></strong><br />
+PHP + mySQL , muy poco utilizado pero tiene lo suyo también.</p>
+<p class="Estilo2"><br />
+<br />
+<strong>E-LEARNING</strong> <br />
+<br />
+<strong><a class="clase6" href="http://babiloo-project.org/wiki/index.php/Main_Page" target="_blank" rel="nofollow">BABILOO</a></strong><br />
+Babiloo es un software libre desarrollado para leer diccionarios fuera de línea.<br />
+<br />
+<strong><a class="clase6" href="http://www.efrontlearning.net/" target="_blank" rel="nofollow">EFRONT</a></strong><br />
+E-learning completo, clases, aulas, foros, exámenes, etc.<br />
+<br />
+<strong><a class="clase6" href="http://www.docebo.org/doceboCms/" target="_blank" rel="nofollow">DOCEBO</a></strong><br />
+Todo para tu academia virtual, tiene mas de 54 funciones.<br />
+<br />
+<strong><a class="clase6" href="http://www.claroline.net/" target="_blank" rel="nofollow">CLAROLINE</a></strong><br />
+Muy completo, mucho soporte, uno de los mejores.<br />
+<br />
+<strong><a class="clase6" href="http://moodle.org/" target="_blank" rel="nofollow">MOODLE</a></strong><br />
+A mi entender el mejor, un poco complicado pero el mas completo y con mas colaboraciones.</p>
+<p class="Estilo2"><br />
+<br />
+<strong>FOROS</strong> <br />
+<br />
+<strong><a class="clase6" href="http://punbb.org/" target="_blank" rel="nofollow">PUNBB</a></strong><br />
+Foro en PHP, se distingue por su velocidad.<br />
+<br />
+<strong><a class="clase6" href="http://www.phpbb.com/" target="_blank" rel="nofollow">PHPBB</a></strong><br />
+A mi entender el mejor.<br />
+<br />
+<strong><a class="clase6" href="http://bbpress.org/" target="_blank" rel="nofollow">BBPRESS</a></strong><br />
+Bueno, de facil integracion a blogs.<br />
+<br />
+<strong><a class="clase6" href="http://getvanilla.com/" target="_blank" rel="nofollow">VANILLA</a></strong><br />
+Muy estable y eficaz en PHP.</p>
+<p class="Estilo2"><br />
+<br />
+<strong>WIKIS</strong> <br />
+<br />
+<strong><a class="clase6" href="http://www.mediawiki.org/wiki/MediaWiki" target="_blank" rel="nofollow">MEDIAWIKI</a></strong><br />
+Hace tu wiki en 5 minutos.<br />
+<br />
+<strong><a class="clase6" href="http://www.twiki.org/" target="_blank" rel="nofollow">TWIKI</a></strong><br />
+Yo lo use y es un chiche, muy fácil.<br />
+<br />
+<strong><a class="clase6" href="http://wiki.opengarden.org/Deki_Wiki" target="_blank" rel="nofollow">DEKI WIKI</a></strong><br />
+Bastante completo, aunque no tan fácil como los otros.<br />
+<br />
+<strong><a class="clase6" href="http://pmwiki.org/wiki/PmWiki/PmWiki" target="_blank" rel="nofollow">PMWIKI</a></strong><br />
+Simple, sencillo y bastante rápido.</p>
+<strong>TIENDAS VIRTUALES</strong> <br />
+<p>I. <strong>Software gratis para tiendas onlines para instalar en servidor propio</strong></p>
+<p><strong><a class="clase6" href="http://www.prestashop.com/" target="_blank">PrestaShop</a></strong> - Es un programa opensource completo para <strong>comercio electrónico</strong> b2c. Es gratis. Prestashop tiene una interfaz de usuario limpia, flexible y optimizada para los buscadores como Google. </p>
+<p>PrestaShop es la solución de <strong>comercio electrónico</strong> de código abierto u <em>opensourse</em> más popular del mundo. Su poderoso motor de software genera negocio online en más de 200.000 tiendas online en todo el mundo. <strong>PrestaShop</strong> facilita al máximo la venta online porque permite personalizar para adaptarse a las necesidades de cada ecommerce. Tiene una comunidad 700.000 miembros que ayudan a mejorar el código y su implantación. Es una solución de comercio electrónico gratis, potente y fácil. </p>
+<p><strong><a class="clase6" href="http://www.magentocommerce.com/" target="_blank">Magento</a></strong> - Magento es uno de los mejores programas de <strong>comercio electrónico</strong> para <strong>creación de tiendas online</strong> que hay actualmente en el mercado. Es un programa opensource y gratis que se caracteriza por la simplicidad en la navegación (usabilidad), simplicidad de código, capacidad para obtener un buen posicionamiento en los buscadores (SEO) y por el buen diseño de su interfaz de usuario. Ver: <strong><a class="clase6" href="http://e-global.es/b2b-blog/2007/09/12/magento-tienda-online-opensource-que-desplazara-a-oscommerce/" target="_blank">Magento, tienda online opensource que desplazará a osCommerce</a></strong> y <strong><a class="clase6" href="/software-libre-de-comercio-electronico/tienda-online-opensource-magento-optimizada-para-el-iphone.html" target="_blank">Software para tienda online opensource Magento optimizado para el iPhone</a></strong>).</p>
+<p><strong><a class="clase6" href="http://www.cubecart.com/" target="_blank">CubeCart</a></strong> la versión 3 del <strong>programa para tiendas</strong> online CubeCart es gratis, pero la versión 4 es de pago después de un tiempo de 30 días de uso en pruebas. Cuebart es un <strong>programa</strong> completo, se pueden subir artículos de venta masivamente, tiene gestor de inventarios, módulos de envíos, etc.</p>
+<p><strong><a class="clase6" href="http://www.ecommerceshoppingcartsoftware.org/" target="_blank">Ecommerce Shopping Cart Software</a></strong> - Es un programa de <strong>comercio electrónico</strong> <strong>gratis</strong> diseñado para gente que no está familiarizada con los códigos de aplicaciones, base de datos y estas cosas de los informáticos.</p>
+<p><strong><a class="clase6" href="http://www.ideacart.com/" target="_blank">IdeaCart</a></strong> - Es una aplicación de <strong>comercio electrónico</strong> <strong>gratis</strong> que está en fase Alpha y que entre otras funciones incluye sistema de detección de fraude, soporte para boletín de noticias, etc.</p>
+<p><strong><a class="clase6" href="http://www.jadasite.com/" target="_blank">JadaSite</a></strong> - JadaSite es un programa gratis para <strong>tiendas online</strong> basado en Java y se integra perfectamente con un propio sistema de gestión de contenidos.</p>
+<p><strong><a class="clase6" href="http://www.opencart.com/" target="_blank">OpenCart</a></strong> - Es un programa para tiendas virtuales opensource, gratis y escrito en PHP</p>
+<p><strong><a class="clase6" href="http://www.oscommerce.com/" target="_blank">osCommerce</a></strong> - osCommerce es uno de los programas para <strong>tiendas online</strong> más conocida del mercado. Es una aplicación opensource y <strong>gratis</strong>. Una de las ventajas de osCommerce es gran comunidad de usuarios que no sólo ayudan a los nuevos usuarios sino que tambien reportan problemas, fallos de seguridad y bugs que puedan existir en la aplicación. Asimismo, tiene una gran cantidad de plugings que mejoran el programa. Actualmente están trabajando en la versión 3.0. osCommerce admite muchas formas de pago como Authorize.net, tarjetas de Crédito, pago contra Reembolso, iPayment, cheque y transferencia bancaria, NOCHEX, PayPal, 2CheckOut, PSiGate, SECPay, Visa Mastercard, etc.</p>
+<p><strong><a class="clase6" href="http://opensolution.org/index,pl.html?sLang=en" target="_blank">Quick.Cart.Lite</a></strong> - Quick.Cart.Lite es una aplicación opensource gratis, escrita en PHP, para crear una tienda online simple, con todo lo que se necesita para comenzar a vender online. Hay versiones superiores de pago.</p>
+<p><strong><a class="clase6" href="http://www.satchmoproject.com/" target="_blank">Satchmo</a></strong> - Es una aplicación gratuita para crear una tienda online simple y personalizable, permite incluir estadísticas Google Analytics, generar facturas en PDF, etc..</p>
+<p><strong><a class="clase6" href="http://www.ubercart.org/" target="_blank">Ubercart</a></strong> - Ubercart es un programa para construir una tienda online completa con múltiples funciones. Se integra perfectamente con Drupal para crear una tienda online, contenidos relacionados y su propia comunidad de usuarios.</p>
+<p><strong><a class="clase6" href="http://virtuemart.net/" target="_blank">VirtueMart</a></strong> - Es un <strong>programa gratuito para crear tiendas online</strong> diseñada especialmente para integrarse con los sistemas de gestión de contenidos Joomla! y Mambo. Es una de las principales aplicaciones de comercio electrónico b2c que a día de hoy se han descargado más de un millón y medio sólo para Joomla</p>
+<p><strong><a class="clase6" href="http://www.zencart.com/" target="_blank">Zen Cart</a></strong> - Zen Cart es una derivación del programa para tiendas online osCommerce que incluye muchos módulos que la complemtan. Es un programa opensource gratis</p>
+<p>II. <strong>Software de pago para tiendas onlines para instalar en servidor propio </strong></p>
+<p><strong><a class="clase6" href="http://www.1shoppingcart.com/" target="_blank">1ShoppingCart</a></strong> - 1ShoppingCart es un <strong>programa para crear tiendas online</strong> que permite incluir botones como "comprar ahora", gestión de contactos, autoresponders, correo electrónico HTML o texto, campañas de marketing personalizadas, formularios web personzlizados, tracking o seguimiento en tiempo real de los usuarios y visitantes de la tienda, mailing lists segmentadas, control de spam, seguimiento de enlaces, etc.</p>
+<p><strong><a class="clase6" href="http://www.actinic.com" target="_blank">Actinic</a></strong> - Actinic ofrece varias soluciones de <strong>software para creación de tiendas virtuales</strong> según el presupuesto que se disponga. Los paquetes van desde los $499 a los $3499.</p>
+<p><strong><a class="clase6" href="http://www.cs-cart.com/" target="_blank">CS-Cart</a></strong> - Es una tienda de pago pero que brinda la posibilidad de acceso total al código fuente para poder personalizar el interfaz de usuario según las necesidades. Este <strong>sotfware</strong> utiliza AJAX para muchas funciones.</p>
+<p><strong><a class="clase6" href="http://www.interspire.com/shoppingcart/" target="_blank">Interspire</a></strong> - Es una <strong>sistema para creación de tiendas online</strong> orientado a personas con pocos conocimientos técnicos. Su precio depende de la cantidad de productos que se vaya a vender online.</p>
+<p><strong><a class="clase6" href="http://www.jshop.co.uk/" target="_blank">JShop Server</a></strong> - Es un <strong>programa para creación de tiendas online</strong> orientada al mercado de Gran Bretaña. Un software muy competo.</p>
+<p><strong><a class="clase6" href="http://www.justaddcommerce.com/" target="_blank">JustAddCommerce</a></strong> - Este <strong>software de creación de tiendas online</strong> facilita la tarea de aquellos que la utilizan porque incluye el botón Compre Ahora (buy button) que es un sistema que funciona con editores HTML como Dreamweaver o Frontpage para crear la tienda online en cualquier sitio web. El precio es de unos 50 USD por mes.</p>
+<p><strong><a class="clase6" href="http://www.litecommerce.com" target="_blank">Lite Commerce</a></strong> - Es un <strong>software para crear una tienda online</strong> que compite con X-Cart, tiene un precio bajo de unos 110 euros pero adminte muchos add-ons para interesantes funciones extra, que hace que suba, necesariamente, el precio final.</p>
+<p><strong><a class="clase6" href="http://www.mivamerchant.com/" target="_blank">Miva Merchant</a></strong> - Es un <strong>programa para creación de tiendas virtuales</strong> más antiguos. Su diseño gráfico y técnico en bastante bueno.</p>
+<p><strong><a class="clase6" href="http://www.shopsite.com" target="_blank">ShopSite</a></strong> - ShopSite es un software para crear tiendas online que presenta una version gratuita para iniciadores, pero es muy limitada. Tiene una versión de pago que cuesta entre 495 y 1295 euros.</p>
+<p><strong><a class="clase6" href="http://www.vpasp.com/" target="_blank">VP-ASP</a></strong> - VP-ASP es un <strong>programa para creación de tiendas online</strong> que ofrece tres niveles de paquetes de comercio electrónico. El precio se basa en el uso del software ducrante un año..</p>
+<p><strong><a class="clase6" href="http://www.webmastercart.com/" target="_blank">WebMasterCart</a></strong> - Es un <strong>programa para creación de tiendas</strong> con muchos años de experiancia en el mercado que se actualiza permanentemente. El precio de la licencia por un 1 sitio es de 199 euros y por dominios ilimitados 995 euros. Incluye un año de actualizaciones de software.</p>
+<p><strong><a class="clase6" href="http://www.x-cart.com/" target="_blank">X-Cart</a></strong> - X-Cart es otro de los <strong>programas clásicos de creación de tiendas online</strong>. Tiene, por un lado una aplicación para un sólo merchant y versiones para múltiples merchants a través de un único carrito de la compra online. Es interesante porque da opciones a múltiples formas de pago e integración con módulo de envío y logística.</p>
+<p>III. <strong>Aplicaciones de comercio electrónico B2C gratis específicas para WordPress</strong></p>
+<p><strong><a title="Woocommerce para Wordpress tienda online" href="http://www.woothemes.com/woocommerce/" target="_blank" rel="alternate">WooCommerce</a> </strong>es el <strong>plugin</strong> de comercio electrónico para <strong>Wordpress</strong> mas conocido. Es <strong>gratis</strong> y tiene todas las funciones más importantes para crear una tienda online, muy buenos themes, plugins y extensiones para mejorar la tienda.</p>
+<p><strong><a class="clase6" href="http://quirm.net/download/" target="_blank">eShop</a></strong> - Es una aplicación de <strong>comercio electrónico</strong> para <strong>WP</strong> que permite crear una tienda online en el blog con pago PayPal. Permite un item por post o por página.</p>
+<p><strong><a class="clase6" href="http://www.zackdesign.biz/wp-plugins/34" target="_blank">Quick Shop</a></strong> - Es un <strong>plugin para crear un carro de compra</strong> en el sidebar de <strong>WordPress</strong>.</p>
+<p><strong><a class="clase6" href="http://www.instinct.co.nz/" target="_blank">WP e-Commerce Plugin</a></strong> - Es una <strong>tienda virtual</strong> completa para blogs creados con <strong>WordPress</strong> o <strong>WordPress MU</strong>, que permite vender con facilidad libros, música mp3 mediante Audio Player Module, ropa, dibujos, etc. Hasta ahora se han realizado 175,000 descargas desde el sitio web oficial. Funciona con versiones de WordPress 2.5 o superiores, se integra con Google Checkout y Level 2 Integration; se integra con Paystation y con PayPal IPN. El diseño está muy bien logrado. Con Adobe Game Suite y WP e-Commerce es posible, también, realizar juegos para teléfonos móviles y distribuirlos a través de Facebook (hay un plugin específico)</p>
+<p><strong><a class="clase6" href="http://www.briggs.net.nz/log/projects/yak-for-wordpress/" target="_blank">YAK for WordPress</a></strong> - Es un <strong>carrito de la compra</strong> simple y gratis, que convierte posts y páginas en códigos de productos y descripción de cada item. Elemental pero funciona bastante bien y se puede utilizar PayPal como medio de pago</p>
+<p><strong><a class="clase6" href="http://www.markettheme.com/about" target="_blank">Market Theme</a></strong> - Es un theme para Wordpress que convierte este gestor de contenidos en tienda onlien, puede utilizar PayPal como medio de pago. El precio del teme oscila entre los 55 y los 150 dólares</p>
+<p><strong><a class="clase6" href="http://ecommercethemes.com/" target="_blank">Ecommerce Theme</a></strong> - Es un <strong>theme para Wordpress</strong> que convierte este gestor de contenidos en tienda online bastante completa y flexible. El precio del theme oscila es de 50 dólares</p>
+
+<p>Prácticamente hasta aquí ya su servidor web en red local esta en funcionamiento, es necesario que amplíe un poco tus conocimientos sobre formas de configuración y desarrollos utilizando como base los lenguajes de programación del lado del servidor como lo es PHP y usando como motor de Base de Datos el potente MySQL todo conjugado en el potente servidor APACHE. Desde J.E Suministros y Mas, C.A. estamos aun desarrollando cursos sencillos y didácticos para poner en practica desarrollos de aplicaciones, APP, Frameworks y en fin, mientras esperamos puedan implementar las aplicaciones que dejamos arriba y que bueno les tocara ahora a ustedes seleccionar la que mejor se adapte a su requerimiento, no son antes deseándole los mejores de los éxitos en su proyecto de desarrollo web, ya por ultimo dejamos acá un listado de archivos en formato PDF que contienen no solo indicaciones de la estructuras del lenguaje si no trucos para efectuar una adecuada configuración en la estructura de nuestro código web en desarrollo.</p>
+
+<table align="center">
+<tr>
+<td align="center" valign="middle">
+<A class="clase3" HREF="../media/archivos/extras" NAME="Instaladores Separados" TARGET="_blank" lang="ES">Documentación Extra</A>
+</td>
+<td>
+<a href="../media/archivos/extras" target="_blank" lang="ES"><img src="../media/imagen/download.gif" width="80" height="60"
+onmouseover="this.src='../media/imagen/download2.gif';" onmouseout="this.src='../media/imagen/download.gif';"/
+alt=""></a>
+</td>
+</tr>
+</table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,384 @@
+	body {
+	    background-image: url("../../media/imagen/fondo.svg");
+	    background-position: top center;
+	    background-repeat: no-repeat;
+	    width: 100% auto;
+	}
+	
+	body.clase1 {
+	    background: rgba(255, 255, 255, 0.9);
+	    text-align: justify;
+	}
+	
+	body.clase2 {
+	    background: rgba(255, 255, 255, 0.1);
+	}
+	
+	div.clase1 {
+	    color: blue;
+	    font-size: 20px;
+	    margin-top: 8px;
+	}
+	
+	td.clase1 {
+	    background: rgba(255, 255, 255, 0.9);
+	    width: 95px;
+	}
+	
+	h1 {
+	    display: block;
+	    font-size: 1.3em;
+	    margin-top: 1.67em;
+	    margin-bottom: 0.67em;
+	    margin-left: 0;
+	    margin-right: 0;
+	    font-weight: bold;
+	}
+	
+	h2 {
+	    display: block;
+	    font-size: 1.1em;
+	    margin-top: 1.0em;
+	    margin-bottom: 0.4em;
+	    margin-left: 0;
+	    margin-right: 0;
+	    font-weight: bold;
+	}
+	
+	a:hover {
+	    background-color: rgba(255, 255, 255, 0.1);
+	}
+	
+	a:active {
+	    color: #C10D0D;
+	}
+	
+	a.clase1:link,
+	a.clase1:visited {
+	    display: block;
+	    font-weight: bold;
+	    color: #ffffff;
+	    background-color: #2721BF;
+	    width: 80%;
+	    text-align: center;
+	    padding: 6px;
+	    text-decoration: none;
+	    border-radius: 15px;
+	}
+	
+	a.clase1 {
+	    text-align: center;
+	    color: #3908BB;
+	}
+	
+	a.clase1:hover {
+	    background-color: #203DFF;
+	}
+	
+	a.clase1:active {
+	    color: #FFFFFF
+	}
+	
+	a.clase2:link,
+	a.clase2:visited {
+	    display: block;
+	    font-weight: bold;
+	    color: #ffffff;
+	    background-color: #2721BF;
+	    width: 80%;
+	    text-align: center;
+	    padding: 6px;
+	    text-decoration: none;
+	}
+	
+	a.clase3:link,
+	a.clase3:visited {
+	    display: block;
+	    font-weight: bold;
+	    color: #ffffff;
+	    background-color: #2721BF;
+	    width: 80%;
+	    text-align: center;
+	    padding: 6px;
+	    text-decoration: none;
+	}
+	
+	a.clase3 {
+	    text-align: center;
+	    color: #3908BB;
+	}
+	
+	a.clase3:hover {
+	    background-color: #203DFF;
+	}
+	
+	a.clase3:active {
+	    color: #FFFFFF
+	}
+	
+	a.clase4:link,
+	a.clase4:visited {
+	    display: block;
+	    font-weight: bold;
+	    color: #ffffff;
+	    background-color: #BF2D21;
+	    width: 40%;
+	    text-align: center;
+	    padding: 6px;
+	    text-decoration: none;
+	}
+	
+	a.clase4 {
+	    text-align: center;
+	    color: #3908BB;
+	}
+	
+	a.clase4:hover {
+	    background-color: #FF0010;
+	}
+	
+	a.clase4:active {
+	    color: #FFFFFF
+	}
+	
+	a.clase5:link,
+	a.clase4:visited {
+	    display: inline;
+	    font-weight: bold;
+	    color: #ffffff;
+	    /*  background-color: #BF2D21; */
+	    /*   width: 40%;*/
+	    text-align: center;
+	    padding: 6px;
+	    text-decoration: none;
+	}
+	
+	a.clase5 {
+	    text-align: center;
+	    color: #3908BB;
+	}
+	
+	a.clase5:hover {
+	    background-color: #FFE800;
+	    border-radius: 15px;
+	}
+	
+	a.clase5:active {
+	    color: #FFFFFF
+	}
+	
+	a.clase6:link,
+	a.clase6:visited {
+	    display: inline;
+	    font-weight: bold;
+	    color: #0016F7;
+	    /*  background-color: #BF2D21; */
+	    /*  width: 40%;*/
+	    text-align: center;
+	    padding: 6px;
+	    text-decoration: none;
+	}
+	
+	a.clase6 {
+	    text-align: center;
+	    color: #7A08BB;
+	}
+	
+	a.clase6:hover {
+	    color: #FF2A00;
+	    /*border-radius: 15px;*/
+	}
+	
+	a.clase6:active {
+	    color: #FF0000
+	}
+	
+	table {
+	    width: 80%;
+	    border: 4px solid blue;
+	}
+	
+	table.clase1 {
+	    width: 100%;
+	    border: 0;
+	}
+	
+	table.clase2 {
+	    width: 80%;
+	    border: 4px solid blue;
+	    align-content: center;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border-collapse: separate;
+	    border-spacing: 20px 20px;
+	    background: rgba(10, 255, 255, 0.09);
+	}
+	
+	table.clase3 {
+	    width: 800px;
+	    border: 4px solid blue;
+	    align-content: center;
+	}
+	
+	table.foot {
+	    width: 100%;
+	    border: 0px solid blue;
+	    align-content: center;
+	}
+	
+	td.foot {
+	    width: 50%;
+	    border: 0px solid blue;
+	}
+	/*Tamaño maximo de la etiqueta video*/
+	
+	video {
+	    max-height: 240px;
+	}
+	/* Aqui podemos controlar el video a pantalla completa especificanto el tamaño maximo deseado para WebKit*/
+	
+	video:-webkit-full-screen {
+	    max-height: 100%;
+	}
+	/* Aqui podemos controlar el video a pantalla completa especificanto el tamaño maximo deseado para Firefox*/
+	
+	video:-moz-full-screen {
+	    max-height: 100%;
+	}
+	
+	#im {
+	    FILTER: alpha(opacity=50)
+	}
+	/*==========================================================================================================*/
+	/* ELEMENTOS BASICOS*/
+	/*==========================================================================================================*/
+	
+	img {
+	    border: none;
+	}
+	
+	#cont_principal {
+	    margin: 0px auto;
+	    text-align: left;
+	    width: 991px;
+	    *width: 991px;
+	    background: url(../media/imagen/estructura/fondo_marco.gif) repeat-y;
+	}
+	/*==========================================================================================================*/
+	/* MENSAJE POPUP SEGURIDAD -  POPUP EXTERNOS - TWITTER -  FACEBOOK*/
+	/*==========================================================================================================*/
+	
+	#ventanaPopup1Fondo {
+	    display: none;
+	    position: absolute;
+	    width: 100%;
+	    top: 0;
+	    left: 0;
+	    background: #000000;
+	    z-index: 999;
+	    height: 128%;
+	}
+	
+	#ventanaPopup1_1 {
+	    display: none;
+	    background: none;
+	    border: 0px solid #cecece;
+	    z-index: 2;
+	    padding: 5px;
+	    font-size: 13px;
+	    z-index: 1000;
+	    cursor: pointer;
+	}
+	
+	#ventanaPopup1Cerrar {
+	    top: 350px;
+	    *top: 350px;
+	    line-height: 14px;
+	    *line-height: 14px;
+	    right: 185px;
+	    *right: 185px;
+	    width: 100px;
+	    *width: 100px;
+	    height: 25px;
+	    *height: 25px;
+	    cursor: pointer;
+	    position: absolute;
+	    font-weight: 700;
+	    display: block;
+	    float: left;
+	    background-image: url(../../media/imagen/popup/boton_cerrar3.png);
+	    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=../../media/imagen/popup/boton_cerrar3.png, sizingMethod='scale');
+	}
+	/*
+#ventanaPopup1Fondo{display:none; position:absolute;  width:100%; top:0; left:0; background:#000000; z-index:999; height:120%;}
+#ventanaPopup1{display:none;  background:#FFFFFF; border:0px solid #cecece; z-index:2; padding:5px; font-size:13px; z-index:1000; top:100px; }
+#ventanaPopup1Cerrar{font-family: "Arial", "Nimbus Sans L", "Liberation Sans", "Verdana", "DejaVu Sans", sans-serif; z-index:3; border:0px solid #cecece; font-size:12px; font-weight:bold; color:#666; top:330px; line-height:14px; right:205px; width:90px; height:40px;  cursor:pointer;  position:absolute; font-weight:700; display:block; float:left; background-image:url(../imagenes/popup/boton_cerrar.png); #background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../imagenes/popup/boton_cerrar.png,sizingMethod='scale')}
+*/
+	/*============================================================================================================*/
+	/* POPUP DE MENSAJES EXTERNOS - SEGURIDAD - MENSAJES DE CONTENIDOS HTML*/
+	/*===========================================================================================================*/
+	
+	#popup {
+	    display: none;
+	    background: none;
+	    border: 0px solid #cecece;
+	    font-size: 13px;
+	    z-index: 1000;
+	}
+	
+	#popup .seguridad1 {
+	    width: 500px;
+	    height: 385px;
+	    background-image: url(../../media/imagen/popup/VENTANA_SEGURIDAD_1.png);
+	    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=../../media/imagen/popup/VENTANA_SEGURIDAD_1.png, sizingMethod='scale');
+	}
+	
+	#popup .seguridad2 {
+	    width: 500px;
+	    height: 385px;
+	    background-image: url(../../media/imagen/popup/VENTANA_SEGURIDAD_2.png);
+	    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=../../media/imagen/popup/VENTANA_SEGURIDAD_2.png, sizingMethod='scale');
+	}
+	
+	#popup .seguridad3 {
+	    width: 500px;
+	    height: 360px;
+	    background-image: url(../../media/imagen/popup/VENTANA_SEGURIDAD_3.png);
+	    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=../../media/imagen/popup/VENTANA_SEGURIDAD_3.png, sizingMethod='scale');
+	}
+	
+	#claseimg {
+	    border: 10px solid;
+	}
+	
+	#cajonbanner {
+	    background: rgba(255, 255, 255, 0.9);
+	    border: 4px solid blue;
+	    width: 800px;
+	    height: 95px;
+	    text-align: center;
+	    margin: 1px auto;
+	}
+	
+	.col-center {
+	    float: none;
+	    margin: 0 auto;
+	}
+	.vcenter {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+	.flex-parent{
+	  display: -ms-flex;
+	  display: -webkit-flex;
+	  display: flex;
+	}
+	
+	.flex-child{
+	  display: -ms-flex;
+	  display: -webkit-flex;
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
+	}

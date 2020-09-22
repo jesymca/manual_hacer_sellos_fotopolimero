@@ -1,0 +1,40 @@
+function updateIndicator() {
+document.getElementById('indicator').innerHTML = navigator.onLine ? 'Usted esta Conectado a Internet' : 'Usted esta Desconectado de Internet hay elementos de este curso que se desactivaran,<br> al recuperar la conexion a internet estaran disponibles de nuevo';
+ }
+function updateFrame() {
+document.getElementById('frame').innerHTML = navigator.onLine ? '<iframe scrolling="no" src="../publicidad/indexon.html" name="publicidad" frameborder="0" width="100%" height="90"></iframe>' : '<iframe align="center" scrolling="no" src="../publicidad/indexoff.html" name="publicidad" frameborder="0" width="100%" height="90"></iframe>';
+   }
+function updateLi() {
+document.getElementById('rotator').innerHTML = navigator.onLine ? '<iframe marginheight="0" marginwidth="0" align="center" margin="0 auto" scrolling="no" src="./publicidad/indexon.html" name="publicidad" frameborder="0" width="700" height="95" style="border: 0px; vertical-align: bottom;"></iframe>' : '<iframe marginheight="0" marginwidth="0" align="center" scrolling="no" src="./publicidad/indexoff.html" name="publicidad" frameborder="0" width="700" height="95" style="border: 0px; vertical-align: bottom;"></iframe>';
+    }
+function updateP() {
+document.getElementById('rotator').innerHTML = navigator.onLine ? '<iframe marginheight="0" marginwidth="0" align="center" margin="0 auto" scrolling="no" src="https://goo.gl/pXTWto" name="publicidad" frameborder="0" width="700" height="95" style="border: 0px; vertical-align: bottom;"></iframe>' : '<iframe marginheight="0" marginwidth="0" align="center" scrolling="no" src="./publicidad/indexoff.html" name="publicidad" frameborder="0" width="700" height="95" style="border: 0px; vertical-align: bottom;"></iframe>';
+    }
+// PARA PRUEBAS
+function onOff() {
+document.getElementById('rotator').innerHTML = navigator.onLine ? 'EN LINEA' : 'FUERA DE LINEA';
+   }
+/* Case 1 */
+window.addEventListener("online", function() {
+	document.getElementById('test1').innerHTML = "online";
+}, false);
+
+window.addEventListener("offline", function() {
+	document.getElementById('test1').innerHTML = "OFFLINE";
+}, false);
+
+/* Case 2 */
+document.body.ononline = function() {
+	document.getElementById('test2').innerHTML = "online";
+};
+document.body.onoffline = function() {
+	document.getElementById('test2').innerHTML = "OFFLINE";
+};
+
+/* Case 3 */
+setInterval(function () {
+	if (navigator && navigator.onLine) 
+		document.getElementById('test3').innerHTML = "online";
+	else
+		document.getElementById('test3').innerHTML = "OFFLINE";
+}, 500);
