@@ -1,4 +1,4 @@
-![JESYMCA](http://www.jesuministrosymas.com.ve/LOGO.png)
+![JESYMCA](https://i.imgur.com/98F3SUI.png)
 
 # Kernel Manual Hacer Sellos con Fotopolimeros
 
@@ -32,6 +32,6 @@ _J.E Suministros y Mas, C.A._
 
 [Nuestra Web](http://www.jesuministrosymas.com.ve/)
 
-[Canal de Telegram](https://t.me/jesuministrosymas_canal)
+[Canal de Telegram](https://t.me/Jesymca)
 
 [WhatsApp](http://bit.ly/GitHub_General)
